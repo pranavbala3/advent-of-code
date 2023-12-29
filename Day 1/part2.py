@@ -9,7 +9,7 @@ def calculate_sum(filename):
         line = re.sub('two', 'two2two', line)
         line = re.sub('three', 'three3three', line)
         line = re.sub('four', 'four4four', line)
-        line = line =re.sub('five', 'five5five', line)
+        line = re.sub('five', 'five5five', line)
         line = re.sub('six', 'six6six', line)
         line = re.sub('seven', 'seven7seven', line)
         line = re.sub('eight', 'eight8eight', line)
