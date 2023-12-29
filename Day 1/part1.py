@@ -7,7 +7,7 @@ def calculate_sum(filename):
         for char in line:
             if char.isnumeric():
                 num_string += char
-        line_num = int(num_string[0]+num_string[-1])
+        line_num = int(num_string[0] + num_string[-1])
         sum += line_num
     return sum
 
